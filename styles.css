@@ -2,18 +2,29 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
 
-html, body{
+html{
+    background: #000;
+}
+
+body{    
     height: 100%;
     width: 100%;
     margin: 0;
     padding: 0;
-    overflow: hidden;
-    font-family: 'Audiowide', cursive;
+    overflow: hidden;    
+    font-family: 'Audiowide', cursive; 
+    background: #000;      
 }
 
+#inicio .container-fluid{
+    background: #000;
+}
 
+#home{
+    background: #000;
+}
 
-.bg_video{
+/*.bg_video{
     position: absolute; 
 	top: 0; 
 	left: 0;
@@ -22,13 +33,22 @@ html, body{
 	z-index: -1000;
 	background: url(img/fundo_fixo.jpeg) no-repeat;
 	background-size: cover; 
-}
+    opacity: 0.8;
+}*/
 
-.navbar-light .navbar-nav a.nav-link{
-    color: #fff;    
+
+
+.navbar-dark .navbar-nav a.nav-link{
+    color: #4cc9f0;    
     font-weight: bold;
     padding-right: 10px;
     font-family: 'Audiowide', cursive;
+}
+
+.navbar-dark .navbar-nav a.nav-link:hover{
+    color: #ff006e;
+    transition: 1s;
+    transform: translateY(-5px);
 }
 
 .nav.navbar .navbar-toggler {

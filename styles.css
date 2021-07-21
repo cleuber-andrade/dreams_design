@@ -14,7 +14,7 @@ body{
     margin: 0;
     padding: 0;
     overflow: hidden;    
-    font-family: 'Audiowide', cursive; 
+    font-family:  'Dancing Script', cursive, Arial, Helvetica, sans-serif;
     background: #000;      
 }
 
@@ -29,8 +29,18 @@ body{
 #home .align-self-center{
     text-align: center;
     color: #fff;
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Dancing Script', cursive, Arial, Helvetica, sans-serif;
 }
+
+#content1{
+    background: #000;
+}
+
+.separador{    
+    background: #000 no-repeat center;
+}
+
+
 
 /*.bg_video{
     position: absolute; 
@@ -50,7 +60,7 @@ body{
     color: #4cc9f0;    
     font-weight: bold;
     padding-right: 10px;
-    font-family: 'Audiowide', cursive;
+    font-family: 'Audiowide', cursive, Arial, Helvetica, sans-serif;
 }
 
 .navbar-dark .navbar-nav a.nav-link:hover{

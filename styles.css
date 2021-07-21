@@ -2,6 +2,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+
 html{
     background: #000;
 }
@@ -22,6 +24,12 @@ body{
 
 #home{
     background: #000;
+}
+
+#home .align-self-center{
+    text-align: center;
+    color: #fff;
+    font-family: 'Dancing Script', cursive;
 }
 
 /*.bg_video{

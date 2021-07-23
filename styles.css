@@ -13,16 +13,16 @@ html, body{
     padding: 0;
     overflow-x: hidden;    
     font-family:  'Indie Flower', cursive, Arial, Helvetica, sans-serif;
-    background: #fdc500;
+    background: #ffcbf2;
           
 }
 
 #inicio .container-fluid{
-    background: #fdc500;
+    background: #ffcbf2;
 }
 
 #home{
-    background: #fdc500;
+    background: #ffcbf2;
     height: 835px;
       
 }
@@ -39,8 +39,8 @@ html, body{
 
 
 #content1{
-    font-family: 'Fuggles', cursive, Arial, Helvetica, sans-serif;
-    color: #fff;    
+    font-family: 'Indie Flower', cursive, Arial, Helvetica, sans-serif;
+    color: #560bad;    
     opacity: 0.8;  
     
 }
@@ -65,10 +65,10 @@ html, body{
 
 
 .navbar-dark .navbar-nav a.nav-link{
-    color: #560bad;    
+    color: #7209b7;    
     font-weight: bold;
     padding-right: 10px;
-    font-family: 'Luckiest Guy', cursive, Arial, Helvetica, sans-serif;
+    font-family: 'Indie Flower', cursive, Arial, Helvetica, sans-serif;
 }
 
 .navbar-dark .navbar-nav a.nav-link:hover{
@@ -77,9 +77,9 @@ html, body{
     transform: translateY(-5px);
 }
 
-#inicio .navbar-dark .navbar-toggler {
-    color: #560bad;
-    
+#inicio .navbar-dark .navbar-toggler {    
+    color: #7209b7;
+    border-color: #7209b7;
 }
 
 

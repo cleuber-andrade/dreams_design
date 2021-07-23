@@ -1,51 +1,52 @@
 @charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Fuggles&display=swap');*/
 
-html{
-    background: #000;
-}
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 
-body{    
+
+html, body{    
     height: 100%;
     width: 100%;
     margin: 0;
     padding: 0;
     overflow-x: hidden;    
-    font-family:  'Dancing Script', cursive, Arial, Helvetica, sans-serif;
-    background: #000;      
+    font-family:  'Indie Flower', cursive, Arial, Helvetica, sans-serif;
+    background: #fdc500;
+          
 }
 
 #inicio .container-fluid{
-    background: #000;
+    background: #fdc500;
 }
 
 #home{
-    background: #000;
-    height: 100vh;   
-    
+    background: #fdc500;
+    height: 835px;
+      
 }
 
 #home .align-self-center{
     text-align: center;    
-    color: #fff;
+    color: #560bad;
+    font-weight: bold;
     font-size: 3em;
-    font-family: 'Dancing Script', cursive, Arial, Helvetica, sans-serif;
+    font-family: 'Indie Flower', cursive, Arial, Helvetica, sans-serif;
+    margin-top: 90px;
 }
 
 
 
 #content1{
-    font-family: 'Dancing Script', cursive, Arial, Helvetica, sans-serif;
+    font-family: 'Fuggles', cursive, Arial, Helvetica, sans-serif;
     color: #fff;    
-    background: url(img/markap.jpg) no-repeat center center #000;
-    opacity: 0.7;    
+    opacity: 0.8;  
     
 }
  #home .lead{
-    font-size: 1em;
+    font-size: 0.4em;
  }
 
 
@@ -65,19 +66,68 @@ body{
 
 
 .navbar-dark .navbar-nav a.nav-link{
-    color: #4cc9f0;    
+    color: #560bad;    
     font-weight: bold;
     padding-right: 10px;
-    font-family: 'Audiowide', cursive, Arial, Helvetica, sans-serif;
+    font-family: 'Luckiest Guy', cursive, Arial, Helvetica, sans-serif;
 }
 
 .navbar-dark .navbar-nav a.nav-link:hover{
-    color: #ff006e;
+    color: #f72585;
     transition: 1s;
     transform: translateY(-5px);
 }
 
 #inicio .navbar-dark .navbar-toggler {
-    color: #fff;
-    border-color: #fff;
+    color: #560bad;
+    
+}
+
+
+
+
+
+
+/*Media Queries
+----------------------------------------------*/
+
+/*// Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap*/
+
+@media (min-width: 250px) and (max-width: 575.99px) {
+
+   
+}
+
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.99px) {
+  
+
+}
+
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.99px){
+   
+
+}
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.99px) {
+    
+
+}
+    
+/*// Extra large devices (large desktops, 1200px and up)*/
+    
+@media (min-width: 1200px) and (max-width: 1399.99px) {
+
+   
+}
+
+/*// XX large devices (large desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+
+    
 }

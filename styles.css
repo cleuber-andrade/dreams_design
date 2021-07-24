@@ -33,24 +33,29 @@ body{
     text-align: center;    
     color: #f0fff1;
     font-weight: bold;
-    font-size: 3em;
-    letter-spacing: 0.2em;
+    font-size: 3em;    
     font-family: 'Dancing Script', cursive, Arial, Helvetica, sans-serif;
     margin-top: 250px;
     z-index: 2;
     display: inline-block;
-    text-shadow: 3px 3px 8px #f20089;     
+    text-shadow: 3px 3px 8px #b100e8;     
 }
 
 
 
-#content1{
+#content{
     font-family: 'Dancing Script', cursive, Arial, Helvetica, sans-serif;
     background: #c0fdff;
     color: #560bad;   
 }
+#content2{
+    background-color: #f72585; 
+    font-family: 'Dancing Script', cursive, Arial, Helvetica, sans-serif;
+    color: #560bad;  
+}
 
-#content1 .lead{
+
+.lead{
     font-family: 'Dosis', cursive, Arial, Helvetica, sans-serif;
 }
 
@@ -95,6 +100,9 @@ body{
     border-color: #c0fdff;
 }
 
+.logo{
+    text-align: center;
+}
 
 
 

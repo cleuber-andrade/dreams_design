@@ -2,9 +2,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Finger+Paint&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
 
 html, body{    
     height: 100%;    
@@ -20,7 +20,7 @@ body{
     background-size: cover;
     background-position: center;
     position: relative;    
-    font-family: 'Indie Flower', cursive, Arial, Helvetica, sans-serif;
+    font-family: 'Fredericka the Great', cursive, Arial, Helvetica, sans-serif;
 }
 
 #home{
@@ -32,17 +32,17 @@ body{
 
 #home .align-self-center{
     text-align: center;    
-    color: #560bad;
+    color: #c0fdff;
     font-weight: bold;
     font-size: 3em;
-    font-family: 'Indie Flower', cursive, Arial, Helvetica, sans-serif;
-    margin-top: 90px;
+    font-family: 'Fredericka the Great', cursive, Arial, Helvetica, sans-serif;
+    margin-top: 150px;    
 }
 
 
 
 #content1{
-    font-family: 'Indie Flower', cursive, Arial, Helvetica, sans-serif;
+    font-family: 'Fredericka the Great', cursive, Arial, Helvetica, sans-serif;
     color: #560bad;    
     opacity: 0.8;  
     
@@ -68,10 +68,9 @@ body{
 
 
 .navbar-dark .navbar-nav a.nav-link{
-    color: #7209b7;    
-    font-weight: bold;
+    color: #c0fdff;   
     padding-right: 10px;
-    font-family: 'Indie Flower', cursive, Arial, Helvetica, sans-serif;
+    font-family: 'Finger Paint', cursive, Arial, Helvetica, sans-serif;
 }
 
 .navbar-dark .navbar-nav a.nav-link:hover{

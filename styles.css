@@ -9,15 +9,16 @@ html, body{
     margin: 0;
     padding: 0;
     overflow-x: hidden;   
-    box-sizing: border-box;          
+    box-sizing: border-box;              
 }
 
 body{    
     background: url(img/bg.jpg);
     background-color: #c0fdff;
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: center;    
     position: relative;    
     font-family: 'Dancing Script', cursive, Arial, Helvetica, sans-serif;
 }

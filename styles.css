@@ -118,6 +118,16 @@ body{
     border: #f0fff1;
 }
 
+.caixa-fixa{
+    cursor: unset;
+    margin: 5px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+}
+
+
+
 
 
 

@@ -4,24 +4,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
 
 html, body{
-    height: 100%;  
-    width: 100%;     
+    height: 100vh;  
+    width: 100vw;    
     margin: 0;
     padding: 0;
     overflow-x: hidden;   
     box-sizing: border-box;              
 }
 
-body{    
-    background: url(img/bg.jpg);
-    background-color: #c0fdff;
-    background-attachment: fixed;
+body{           
+    background: url(img/bg-4.jpg);
+    background-color: #c0fdff;    
     background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size: cover;
     background-position: center;    
     position: relative;    
     font-family: 'Dancing Script', cursive, Arial, Helvetica, sans-serif;
 }
+
+
 
 #home{
     height: 835px;
@@ -39,22 +41,25 @@ body{
     margin-top: 250px;
     z-index: 2;
     display: inline-block;
-    text-shadow: 3px 3px 8px #b100e8;     
+    text-shadow: 3px 3px 8px #f72585;     
 }
-
-
-
 #content{
     font-family: 'Dancing Script', cursive, Arial, Helvetica, sans-serif;
-    background: #c0fdff;
-    color: #560bad;   
-}
-#content2{
-    background-color: #f72585; 
-    font-family: 'Dancing Script', cursive, Arial, Helvetica, sans-serif;
-    color: #560bad;  
+    background: #f0fff1 ;
+    color: #000;   
 }
 
+#content2{
+    background-color: #f0fff1; 
+    font-family: 'Dancing Script', cursive, Arial, Helvetica, sans-serif;
+    color: #000;  
+}
+.triangulo{
+    position: absolute;
+    top: 12vh;
+    left: 52vw;    
+    z-index: 1;
+}
 
 .lead{
     font-family: 'Dosis', cursive, Arial, Helvetica, sans-serif;
@@ -84,7 +89,7 @@ body{
 }*/
 
 .navbar-dark .navbar-nav a.nav-link{
-    color: #c0fdff;
+    color: #2d00f7;
     font-weight: bold;   
     padding-right: 25px;
     font-family: 'Dosis', cursive, Arial, Helvetica, sans-serif;
@@ -97,12 +102,20 @@ body{
 }
 
 #inicio .navbar-dark .navbar-toggler {    
-    color: #c0fdff;
-    border-color: #c0fdff;
+    color: #2d00f7;
+    border-color: #3a0ca3;
 }
 
 .logo{
     text-align: center;
+}
+
+.redes{
+    margin-top: 20vh;
+    margin-left: 15px;
+    color: #f0fff1;
+    font-weight: bold;
+    border: #f0fff1;
 }
 
 

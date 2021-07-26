@@ -118,12 +118,18 @@ body{
     border: #f0fff1;
 }
 
-.caixa-fixa{
-    cursor: unset;
-    margin: 5px;
+.caixa-fixa{     
     overflow: hidden;
     position: relative;
-    text-align: center;
+    text-align: center;    
+}
+
+.transtionSize{
+    transition: 1s;
+}
+
+.transtionSize:hover{
+    transform: scale(1.1);
 }
 
 

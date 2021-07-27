@@ -45,12 +45,12 @@ body{
 }
 #content{
     font-family: 'Dancing Script', cursive, Arial, Helvetica, sans-serif;
-    background: #f0fff1 ;
+    background: #e7eaee ;
     color: #000;   
 }
 
 #content2{
-    background-color: #f0fff1; 
+    background-color: #e7eaee; 
     font-family: 'Dancing Script', cursive, Arial, Helvetica, sans-serif;
     color: #000;  
 }
@@ -125,17 +125,17 @@ body{
 }*/
 
 .transtionSize{
-    transition: 1s;   
+    transition: 1s ease-in-out;   
 }
 
 .transtionSize:hover{
-    transform: scale(1.1);    
+    transform: scale(1.1);
+    box-shadow: -1em 1em 1em -0.4em #f72585;       
 }
+  
+ 
 
-.border{
-    width: 300px;
-    border: 25px solid #2d00f7;
-}
+
 
 
 

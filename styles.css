@@ -156,15 +156,35 @@ body{
 // No media query for `xs` since this is the default in Bootstrap*/
 
 @media (min-width: 250px) and (max-width: 575.99px) {
+    #home{
+        height: 600px;
+    }
+    
+    #home .align-self-center{
+        
+        margin-top: 130px;
+        
+    }
+    #home .display-2{
+        font-size: 1.2em;
+    }
 
-   
+    #home .lead{
+        font-size: 0.4em;
+    }
+    
+    .redes{
+        margin-top: 27vh;
+        margin-left: -6vw;
+        font-size: 13px;        
+    }
+    
 }
 
 
 /*// Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 767.99px) {
-  
-
+   
 }
 
 

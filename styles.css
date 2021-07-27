@@ -67,7 +67,7 @@ body{
 
 
 /*.bg_video{
-    position: absolute; 
+    position: absolute; caso eu queira colocar vídeo curto no backgound
 	top: 0; 
 	left: 0;
 	min-width: 100%; 
@@ -79,7 +79,7 @@ body{
 }*/
 
 /*.box-texto-banner{
-    border: 9px outset  #f20089;
+    border: 9px outset  #f20089;  caixa para texto, mas desisti de inserir
     width: 40vw;
     height: 35vh;
     margin: 20vh 15vw ;      
@@ -118,20 +118,24 @@ body{
     border: #f0fff1;
 }
 
-.caixa-fixa{     
+/*.caixa-fixa{     
     overflow: hidden;
-    position: relative;
+    position: relative; classe para deixar a caixa fixa para o efeito transition size
     text-align: center;    
-}
+}*/
 
 .transtionSize{
-    transition: 1s;
+    transition: 1s;   
 }
 
 .transtionSize:hover{
-    transform: scale(1.1);
+    transform: scale(1.1);    
 }
 
+.border{
+    width: 300px;
+    border: 25px solid #2d00f7;
+}
 
 
 

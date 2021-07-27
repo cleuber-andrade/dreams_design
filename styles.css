@@ -178,6 +178,28 @@ body{
         margin-left: -6vw;
         font-size: 13px;        
     }
+
+    #content .row img{
+        width: 250px;
+    }
+    
+    #content .display-3{
+        font-size: 2.5em;
+    }
+
+    #content .lead{
+        font-size: 1em;
+    }
+
+    #content2 .display-3{
+        font-size: 2.5em;
+    }
+
+    #content2 .row img{
+        width: 250px;
+        margin-left: 55px;
+        margin-bottom: 25px;        
+    }
     
 }
 

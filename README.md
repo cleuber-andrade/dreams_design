@@ -13,6 +13,7 @@ Praticar conhecimentos sobre HTML5, CSS3 e Bootstrap
 
 -Aprimorar os conhecimentos em Bootstrap;
 -Aprimorar os conhecimentos em HTML e CSS;
+-Site Responsivo;
 
 ```
 ## :wrench: Ferramentas Utilizadas

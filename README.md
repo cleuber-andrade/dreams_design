@@ -26,11 +26,11 @@ Praticar conhecimentos sobre HTML5, CSS3 e Bootstrap
 
 ## :pager: Tela principal da Site Dreams Design
 
- <img src="" alt="Tela Principal">
+ <img src="https://github.com/cleuber-andrade/dreams_design/blob/main/img/dreams.jpg" alt="Tela Principal">
 
 ## :globe_with_meridians: Link para acessar site no GitHubPages
 
-Para visualizar o site no GitHubPages <a href="" target="_blank">Clique aqui</a>
+Para visualizar o site no GitHubPages <a href="https://cleuber-andrade.github.io/dreams_design/" target="_blank">Clique aqui</a>
 
 ## 👷 Como rodar
 
